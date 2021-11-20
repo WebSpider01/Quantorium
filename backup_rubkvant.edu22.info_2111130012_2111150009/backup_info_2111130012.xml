@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<migration-dump agent-name="Plesk.PHP" dump-version="18.0.39" dump-original-version="18.0.39" content-included="true" dump-format="panel" verification-string="$AES-128-CBC$1VSmF5eBuPWzPVdVMBmkCQ==$OJJ0T8IfQL1N4psacF5c2yd9WSsn7u1uOk7GM8G55UQ=" encryption-type="password">
+  <dump-info>
+    <description>Создание резервной копии по расписанию. Все настройки и содержимое.</description>
+    <os-description type="unix" apache-uid="33" apache-gid="33" mailman-uid="38" mailman-gid="38"/>
+    <cp-description>
+      <directories vhosts="/var/www/vhosts" product_root="/opt/psa"/>
+      <components-installed>
+        <component name="awstats"/>
+        <component name="curl"/>
+        <component name="fail2ban"/>
+        <component name="httpd"/>
+        <component name="modsecurity"/>
+        <component name="mysql"/>
+        <component name="nginx"/>
+        <component name="openssl"/>
+        <component name="php"/>
+        <component name="php71"/>
+        <component name="php72"/>
+        <component name="php73"/>
+        <component name="php74"/>
+        <component name="phpmyadmin"/>
+        <component name="psa"/>
+        <component name="psa-api-rpc"/>
+        <component name="psa-autoinstaller"/>
+        <component name="psa-backup-manager"/>
+        <component name="psa-logrotate"/>
+        <component name="psa-mod-fcgid-configurator"/>
+        <component name="psa-proftpd"/>
+        <component name="resource-controller"/>
+        <component name="webalizer"/>
+      </components-installed>
+      <services>
+        <service name="dns" available="false"/>
+        <service name="wpb" available="false"/>
+        <service name="resellers-management" available="true"/>
+      </services>
+    </cp-description>
+    <server-id>df4e0de9-574d-4962-a683-d6cb2f441f8f</server-id>
+  </dump-info>
+  <domain id="105" guid="a20537a4-e2f2-4d2d-a00b-220fba6c9622" external-id="" owner-guid="e3a53dc6-807d-4bc6-84d4-7398e7a2bbde" name="rubkvant.edu22.info" www="false" cr-date="2021-01-28" vendor-guid="df4e0de9-574d-4962-a683-d6cb2f441f8f" owner-name="rubkvant_pl" vendor-login="admin">
+    <preferences>
+      <subscription locked="false" synchronized="true" custom="false">
+        <plan quantity="1" plan-guid="450a75c8-af8f-67a1-6983-1e93cc2eb658" is-addon="false"/>
+        <properties>
+          <property>
+            <name>aps_bundle_filter_id</name>
+            <value encoding="base64">NDQ=</value>
+          </property>
+          <property>
+            <name>limitsId</name>
+            <value encoding="base64">MTAw</value>
+          </property>
+          <property>
+            <name>outgoing_messages_domain_limit</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_enable_sendmail</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_mbox_limit</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_overlimit_percent</name>
+            <value encoding="base64">MA==</value>
+          </property>
+          <property>
+            <name>outgoing_messages_subscription_limit</name>
+            <value encoding="base64">ZGVmYXVsdA==</value>
+          </property>
+          <property>
+            <name>OveruseBlock</name>
+            <value encoding="base64">dHJ1ZQ==</value>
+          </property>
+          <property>
+            <name>OveruseNotify</name>
+            <value encoding="base64">ZmFsc2U=</value>
+          </property>
+          <property>
+            <name>OveruseSuspend</name>
+            <value encoding="base64">dHJ1ZQ==</value>
+          </property>
+          <property>
+            <name>permissionsId</name>
+            <value encoding="base64">MTAx</value>
+          </property>
+          <property>
+            <name>unpaid_website_status</name>
+            <value encoding="base64">YWN0aXZl</value>
+          </property>
+        </properties>
+      </subscription>
+      <aps-bundle>
+        <filter type="white">
+          <item>
+            <name>name</name>
+            <value>drupal</value>
+          </item>
+          <item>
+            <name>name</name>
+            <value>hostcms</value>
+          </item>
+          <item>
+            <name>name</name>
+            <value>joomla</value>
+          </item>
+          <item>
+            <name>name</name>
+            <value>magento</value>
+          </item>
+          <item>
+            <name>name</name>
+            <value>modx-revolution</value>
+          </item>
+          <item>
+            <name>name</name>
+            <value>moodle</value>
+          </item>
+          <item>
+            <name>name</name>
+            <value>typo3</value>
+          </item>
+          <item>
+            <name>name</name>
+            <value>wordpress</value>
+          </item>
+        </filter>
+      </aps-bundle>
+      <descriptions>
+        <description/>
+      </descriptions>
+    </preferences>
+    <properties>
+      <webspace-status>
+        <enabled/>
+      </webspace-status>
+      <status>
+        <enabled/>
+      </status>
+      <dom-param>
+        <param>
+          <name>apacheErrorDocs</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </param>
+        <param>
+          <name>cgi_bin_mode</name>
+          <value encoding="base64">d3d3LXJvb3Q=</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-configureLinkClicked</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-configureUrl</name>
+          <value encoding="base64"/>
+        </param>
+        <param>
+          <name>ext-domain-connect-connectable</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-connected</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>ext-domain-connect-enabled</name>
+          <value encoding="base64">MQ==</value>
+        </param>
+        <param>
+          <name>ext-xovi-site_audit_meta</name>
+          <value encoding="base64">eyJlcnJvcmNvZGUiOi0zLCJlcnJvcm1ldGEiOnsic3RhcnRfdXJsIjoiaHR0cDpcL1wvcnVia3ZhbnQuZWR1MjIuaW5mb1wvIn19</value>
+        </param>
+        <param>
+          <name>ext-xovi-site_audit_stamp</name>
+          <value encoding="base64">MTYxMTkwMjUzMw==</value>
+        </param>
+        <param>
+          <name>ext-xovi-site_audit_state</name>
+          <value encoding="base64">ZXJyb3I=</value>
+        </param>
+        <param>
+          <name>ip_addr_id</name>
+          <value encoding="base64">MQ==</value>
+        </param>
+        <param>
+          <name>is_resolved</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </param>
+        <param>
+          <name>lastDatabaseSelectedId</name>
+          <value encoding="base64">MzA1</value>
+        </param>
+        <param>
+          <name>lastVisitTime</name>
+          <value encoding="base64">MjAyMS0wNi0wMlQxNToxMDoyNCswMDowMA==</value>
+        </param>
+        <param>
+          <name>logrotation_id</name>
+          <value encoding="base64">MTE2</value>
+        </param>
+        <param>
+          <name>seoRedirect</name>
+          <value encoding="base64">bm9uZQ==</value>
+        </param>
+        <param>
+          <name>stat_ttl</name>
+          <value encoding="base64">MA==</value>
+        </param>
+        <param>
+          <name>vhost_id</name>
+          <value encoding="base64">N2U0ODFhYzYtNDZkZC00NjQxLWI4YzAtOGMwZmMyZDI4Mjdm</value>
+        </param>
+        <param>
+          <name>webServerSettingsId</name>
+          <value encoding="base64">MTEz</value>
+        </param>
+        <param>
+          <name>wu_script</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </param>
+      </dom-param>
+    </properties>
+    <limits-and-permissions>
+      <limit name="overuse">block</limit>
+      <limit name="disk_space">2147483648</limit>
+      <limit name="disk_space_soft">1933574144</limit>
+      <limit name="expiration">-1</limit>
+      <limit name="expiration_soft">-1</limit>
+      <limit name="ext_limit_xovi_max_keywords">-1</limit>
+      <limit name="max_db">3</limit>
+      <limit name="max_dom_aliases">-1</limit>
+      <limit name="max_mn">-1</limit>
+      <limit name="max_site">1</limit>
+      <limit name="max_subdom">1</limit>
+      <limit name="max_subftp_users">5</limit>
+      <limit name="max_traffic">-1</limit>
+      <limit name="max_traffic_soft">-1</limit>
+      <limit name="max_wu">-1</limit>
+      <permission name="access_appcatalog" value="true"/>
+      <permission name="access_service_users" value="true"/>
+      <permission name="allow_account_ftp_backups" value="false"/>
+      <permission name="allow_account_local_backups" value="true"/>
+      <permission name="allow_ftp_backups" value="false"/>
+      <permission name="allow_insecure_sites" value="true"/>
+      <permission name="allow_local_backups" value="true"/>
+      <permission name="create_domains" value="true"/>
+      <permission name="ext_permission_git_manage_git" value="true"/>
+      <permission name="manage_anonftp" value="false"/>
+      <permission name="manage_crontab" value="false"/>
+      <permission name="manage_domain_aliases" value="false"/>
+      <permission name="manage_log" value="true"/>
+      <permission name="manage_not_chroot_shell" value="false"/>
+      <permission name="manage_performance" value="false"/>
+      <permission name="manage_phosting" value="false"/>
+      <permission name="manage_phosting_cgi" value="true"/>
+      <permission name="manage_phosting_errdocs" value="true"/>
+      <permission name="manage_phosting_fastcgi" value="true"/>
+      <permission name="manage_phosting_perl" value="true"/>
+      <permission name="manage_phosting_php" value="true"/>
+      <permission name="manage_phosting_python" value="true"/>
+      <permission name="manage_phosting_ssi" value="true"/>
+      <permission name="manage_phosting_ssl" value="true"/>
+      <permission name="manage_phosting_webdeploy" value="true"/>
+      <permission name="manage_php_settings" value="false"/>
+      <permission name="manage_php_version" value="false"/>
+      <permission name="manage_protected_dirs" value="true"/>
+      <permission name="manage_quota" value="false"/>
+      <permission name="manage_sh_access" value="false"/>
+      <permission name="manage_subdomains" value="true"/>
+      <permission name="manage_subftp" value="true"/>
+      <permission name="manage_website_maintenance" value="true"/>
+      <permission name="manage_webstat" value="true"/>
+      <permission name="remote_db_connection" value="false"/>
+      <permission name="select_db_server" value="false"/>
+    </limits-and-permissions>
+    <databases>
+      <database name="rubkvant_pl_" type="mysql" owner-guid="a20537a4-e2f2-4d2d-a00b-220fba6c9622" version="10.3.31" charset="utf8" id="305" collation="utf8_general_ci">
+        <content>
+          <cid type="sqldump" path="databases/rubkvant_pl__1">
+            <content-file size="337439">backup_sqldump_2111130012.tgz</content-file>
+          </cid>
+        </content>
+        <db-server type="mysql">
+          <host>localhost</host>
+          <port>3306</port>
+        </db-server>
+        <related-sites>
+          <related-site name="rubkvant.edu22.info"/>
+        </related-sites>
+      </database>
+      <dbusers>
+        <dbuser name="rubkvant_pl" id="310" default="false" role="custom">
+          <password type="sym">$AES-128-CBC$rJuZn0JLdSSyNYsKZYNwBw==$JtBXXwcaBhwU2MCjnySHOA==</password>
+          <db-server type="mysql">
+            <host>localhost</host>
+            <port>3306</port>
+          </db-server>
+          <acl>
+            <allowed-host>%</allowed-host>
+          </acl>
+          <privileges>
+            <privilege name="File" granted="false"/>
+            <privilege name="Select" granted="true"/>
+            <privilege name="Insert" granted="true"/>
+            <privilege name="Update" granted="true"/>
+            <privilege name="Delete" granted="true"/>
+            <privilege name="Create" granted="true"/>
+            <privilege name="Drop" granted="true"/>
+            <privilege name="References" granted="true"/>
+            <privilege name="Index" granted="true"/>
+            <privilege name="Alter" granted="true"/>
+            <privilege name="Create Temporary Tables" granted="true"/>
+            <privilege name="Lock Tables" granted="true"/>
+            <privilege name="Create View" granted="true"/>
+            <privilege name="Show View" granted="true"/>
+            <privilege name="Create Routine" granted="true"/>
+            <privilege name="Alter Routine" granted="true"/>
+            <privilege name="Execute" granted="true"/>
+            <privilege name="Event" granted="true"/>
+            <privilege name="Trigger" granted="true"/>
+          </privileges>
+        </dbuser>
+      </dbusers>
+    </databases>
+    <traffic>2021-01-28 http in 0
+2021-01-28 http out 2880
+2021-01-28 ftp in 0
+2021-01-28 ftp out 0
+2021-01-28 smtp in 0
+2021-01-28 smtp out 0
+2021-01-28 pop3-imap in 0
+2021-01-28 pop3-imap out 0
+</traffic>
+    <php-settings/>
+    <phosting https="false" webstat="none" errdocs="false" shared-content="true" at-domains="false" wu_script="true" www-root="httpdocs" original-conf-directory="/var/www/vhosts/system/rubkvant.edu22.info/conf" sslRedirect="false">
+      <content>
+        <cid type="user-data" indexed="true">
+          <content-file size="81128561">backup_user-data_2111130012.tgz</content-file>
+          <exclude-item>logs</exclude-item>
+          <exclude-item>httpdocs/plesk-stat</exclude-item>
+          <exclude-item>httpsdocs/plesk-stat</exclude-item>
+        </cid>
+        <cid type="apache-files" indexed="true">
+          <content-file size="45">backup_apache-files_2111130012.tgz</content-file>
+          <exclude-item>logs</exclude-item>
+          <exclude-item>httpdocs/plesk-stat</exclude-item>
+          <exclude-item>httpsdocs/plesk-stat</exclude-item>
+        </cid>
+        <cid type="conf" path="">
+          <content-file size="45">backup_conf_2111130012.tgz</content-file>
+          <exclude-item>httpd.conf</exclude-item>
+          <exclude-item>httpd.conf.bak</exclude-item>
+          <exclude-item>last_httpd.conf</exclude-item>
+          <exclude-item>vhost.conf</exclude-item>
+          <exclude-item>vhost_ssl.conf</exclude-item>
+          <exclude-item>httpd_ip_default.conf</exclude-item>
+          <exclude-item>httpd_ip_default.conf.bak</exclude-item>
+          <exclude-item>last_ip_default.conf</exclude-item>
+          <exclude-item>nginx.conf</exclude-item>
+          <exclude-item>nginx.conf.bak</exclude-item>
+          <exclude-item>last_nginx.conf</exclude-item>
+          <exclude-item>vhost_nginx.conf</exclude-item>
+          <exclude-item>nginx_ip_default.conf</exclude-item>
+          <exclude-item>nginx_ip_default.conf.bak</exclude-item>
+          <exclude-item>modsecurity_nginx.conf</exclude-item>
+          <exclude-item>modsecurity_nginx.conf.bak</exclude-item>
+          <exclude-item>siteapp.d</exclude-item>
+          <exclude-item>siteapp_ssl.d</exclude-item>
+          <exclude-item>stat_ttl.conf</exclude-item>
+          <exclude-item>webalizer.conf</exclude-item>
+          <exclude-item>prev_month.found</exclude-item>
+        </cid>
+        <cid type="logs" path="">
+          <content-file size="226293">backup_logs_2111130012.tgz</content-file>
+        </cid>
+        <cid type="statistics" path="">
+          <content-file size="706">backup_statistics_2111130012.tgz</content-file>
+        </cid>
+      </content>
+      <preferences>
+        <sysuser name="rubkvant_pl" quota="2147483648" shell="/bin/false">
+          <password type="sym">$AES-128-CBC$tB2L2Edx16nLA19lHA1dGw==$yRZ6rn28XsolwNWMuYG6tw==</password>
+        </sysuser>
+        <logrotation max-number-of-logfiles="10" compress="true" enabled="true">
+          <logrotation-maxsize>10485760</logrotation-maxsize>
+        </logrotation>
+        <webalizer hide-direct-referrer="false"/>
+        <perfomance>
+          <max-connections>-1</max-connections>
+          <traffic-bandwidth>-1</traffic-bandwidth>
+        </perfomance>
+        <web-stat stat-ttl="0"/>
+      </preferences>
+      <properties>
+        <ip>
+          <ip-type>shared</ip-type>
+          <ip-address>10.10.10.217</ip-address>
+        </ip>
+      </properties>
+      <limits-and-permissions>
+        <scripting ssi="false" ssi_html="false" php="true" php_handler_type="fastcgi" php_version="7.4" php_handler_id="fastcgi" cgi="true" perl="false" asp="false" asp_dot_net="false" fastcgi="true" webdeploy="false"/>
+      </limits-and-permissions>
+      <php-settings/>
+      <web-settings vhost-name="rubkvant.edu22.info">
+        <setting>
+          <name>mimeTypes</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>handlers</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>deny</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>allow</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>directoryIndex</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>expires</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>expiresStaticOnly</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>headers</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>restrictFollowSymLinks</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxProxyMode</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxTransparentMode</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxServeStatic</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxStaticExtensions</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>nginxServePhp</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheEnabled</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheSize</name>
+          <value encoding="base64">NjcxMDg4NjQ=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheTimeout</name>
+          <value encoding="base64">NQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheKey</name>
+          <value encoding="base64">JHNjaGVtZSRyZXF1ZXN0X21ldGhvZCRob3N0JHJlcXVlc3RfdXJp</value>
+        </setting>
+        <setting>
+          <name>nginxCacheCookies</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassLocations</name>
+          <value encoding="base64"/>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassHeaderNocache</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassHeaderAuth</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheBypassGetNocache</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheUseStale5xx</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>nginxCacheUseStale4xx</name>
+          <value encoding="base64">ZmFsc2U=</value>
+        </setting>
+        <setting>
+          <name>nginxCacheUseStaleUpdating</name>
+          <value encoding="base64">dHJ1ZQ==</value>
+        </setting>
+        <setting>
+          <name>additionalSettings</name>
+          <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+        </setting>
+        <setting>
+          <name>additionalSslSettings</name>
+          <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+        </setting>
+        <setting>
+          <name>additionalNginxSettings</name>
+          <value encoding="base64" compression="gzencode">H4sIAAAAAAAAAwMAAAAAAAAAAAA=</value>
+        </setting>
+      </web-settings>
+      <applications>
+        <sapp-installed>
+          <sapp-spec>
+            <sapp-package-id>http://wordpress.org/</sapp-package-id>
+            <sapp-name>WordPress</sapp-name>
+            <sapp-version>5.8.2</sapp-version>
+            <sapp-release>326</sapp-release>
+            <sapp-vendor>WordPress.org</sapp-vendor>
+            <sapp-packager>Plesk</sapp-packager>
+          </sapp-spec>
+          <database name="wordpress_8" type="mysql" owner-guid="a20537a4-e2f2-4d2d-a00b-220fba6c9622" version="10.3.31" charset="utf8" id="529" aps-registry-id="86b7c0c5-56f8-459b-a4bf-32ac33cafeca" collation="utf8_general_ci">
+            <content>
+              <cid type="sqldump" path="databases/wordpress_8_1">
+                <content-file size="56351">backup_sqldump_2111130012.tgz</content-file>
+              </cid>
+            </content>
+            <db-server type="mysql">
+              <host>localhost</host>
+              <port>3306</port>
+            </db-server>
+            <dbuser name="wordpress_f" id="595" aps-registry-id="86b7c0c5-56f8-459b-a4bf-32ac33cafeca" default="false" role="readWrite">
+              <password type="sym">$AES-128-CBC$jEYUVLYe9fkRmzL7DEkLfA==$YDGla6wkvFt5OyDmYjwDAQ==</password>
+              <acl>
+                <allowed-host>%</allowed-host>
+              </acl>
+              <privileges>
+                <privilege name="File" granted="false"/>
+                <privilege name="Select" granted="true"/>
+                <privilege name="Insert" granted="true"/>
+                <privilege name="Update" granted="true"/>
+                <privilege name="Delete" granted="true"/>
+                <privilege name="Create" granted="true"/>
+                <privilege name="Drop" granted="true"/>
+                <privilege name="References" granted="true"/>
+                <privilege name="Index" granted="true"/>
+                <privilege name="Alter" granted="true"/>
+                <privilege name="Create Temporary Tables" granted="true"/>
+                <privilege name="Lock Tables" granted="true"/>
+                <privilege name="Create View" granted="true"/>
+                <privilege name="Show View" granted="true"/>
+                <privilege name="Create Routine" granted="true"/>
+                <privilege name="Alter Routine" granted="true"/>
+                <privilege name="Execute" granted="true"/>
+                <privilege name="Event" granted="true"/>
+                <privilege name="Trigger" granted="true"/>
+              </privileges>
+            </dbuser>
+          </database>
+          <sapp-installdir>
+            <sapp-prefix/>
+            <aps-registry-id>d69a96d3-9a1d-4022-b279-8be6cbdf0190</aps-registry-id>
+          </sapp-installdir>
+          <sapp-entry-point>
+            <label>Blog</label>
+            <description>WordPress</description>
+            <hidden>false</hidden>
+            <http>false</http>
+            <limits-and-permissions>
+              <permission name="public" class="public"/>
+            </limits-and-permissions>
+          </sapp-entry-point>
+          <sapp-entry-point>
+            <label>Administrative interface</label>
+            <description>WordPress</description>
+            <hidden>false</hidden>
+            <http>true</http>
+            <limits-and-permissions>
+              <permission name="admin" class="singular"/>
+            </limits-and-permissions>
+          </sapp-entry-point>
+          <context type="site"/>
+          <aps-registry-id>60ccd306-8fe2-4294-8a3c-8600ed53ea79</aps-registry-id>
+          <sapp-apsc>JEFFUy0xMjgtQ0JDJFN6bzdYWmNQS2VSdjBsT3Joem5VOFE9PSRKWWJMeU8wSFFRVm51clFUZkFTTmZXcWRxTG1TUnFITDN0dS9RbW1JOGJzcGxKK0NITnlYZ0o1amo3S3F4UU5HeGg0V3h4d1BPNzhKaFF1ZkgraUhDdVlBcVdabVdzUDNxdTVGNitXelFLTmFuTEtkUUgzWW1OMm1BN2F3VFZSZDM3S1BTUk1ueXRXTmNURW1BdkdrZTdyRjZWWGlVY3FGZ01DS01UOGhMMmw0MGpEc3A5YjVCMm5ZL1VNdCswRi9KYzZTakZoTWZSai9TS2F6Q1hJeXJXMVpmTzJuQnlIMzF1UC92WWlwRUNXeDR4L0JqeGE2c0h4K25IUkR6MHEySVorSUtqZHlZR2Fob2xtUzVUNjEzUWxFUmlXNTk0Ym1Ob0pHZnZOWHhNTnVKV1dDeWVMeUNEVmVZcU8wa2dDaThWc1UwZ28wQkc2eGFRZ1RrWU44WXZxTHI0MEROSmNqczc5VStUUkJwbTVEVk1IMGhqTkJqNndwZ0VKSGNFVXF6S1JnUGxyRnZWVVYrRWxzdE0vWi9rRE1wTkd4bFZNQ21oNGlKeXEvQ2JsYkxWTitCZ3BXQlBUNG1BVjkrQnpNcVlEMzZuL1ltQWFJdEI4K2tUUEtDakZkN1BMaWZUd3BMaVZLL0FxcWJzbjJoZ2pRK0FQYjM2VE9ldWM2SEtqd3dtYis5NjNBdUVLdUwrd2hyMDIyQ2x0Qi9iTzQyRHJvYTRYMEo2akFhUVgrUElEUWorTlhsTGRsekZIdG1pNHpTM2pNZzFLWkhzMUttWlBHRE9vTFBHVHhUS3FlNytUdGVkb1RqRXNmYXVmSm1vV2lSMFlOTU80dk9YOXB0ZWFxMitHRnc4NERvUjFzNjFEVk00dXR3enFEUU9tclpWNzRxcmlJbXpoOUJuaFJETDlZT2wrSDJNaDVkdGpFR2J5Rm1vYzdCOEhXMjE4d0JtUGpRRU5wcmJwbmFBUDNwL0RVNTAzdWtxTEdIYUdrVy9Jd3dtQUhiTkhMajBtWGwrMlN2MiszaU43RnA0T29La296cjBCTXBkQVpEOXA4QUcrU25kZWVvQzkxWlBQdEphV0Z1VkI2QlVrWC8yNzlLUmF5TUZWb2lkOEZhcnluOCsxVU5PWVZhWklSZHV5dmxXbDExVnYvcFlHTEttaDZ1THdvd29NZ21qSVhtWXVnc284QjFzUFJMT2ZiamlRbjNUMnpZRjg3dTdOaWFkZ0tYeHVoMEZXSGNXaHJSNjMvcGFyS1RpRnk0VjNtNXplc0JQK3BXaFp4QkUxd2pPQ2FUSzk3UWNyY3JEa0U2aWg0SmJMYTdOY3h0dzNYTE5FZ0hydWROMkhMV00vOGxRNEJ3V1FZYndPMTluOEpCVVJTWGhFclNRU1BVcE5PY1Q3VnU5eUFzamJ5TVd3VzhUMlBuditqZjZ0VTN4UnJBWXdLWjRpUGUzSzM0dzk3TUw1bmlOZldEdDRkYkd3Q3hLcUR0UUczMy9aRVowY2tIUzdXRmRvLytHUGhxQVB3Ui9XWWRxYXhJK2ZXOEhLamtGOE9UUVRCWnQ1cUt6dkYxWVJLR3VjU3JSRFJ2QTZhT0xWUVpQcVJ0NE1CNTVYUVF3MkhTNVBoWFFNTUVOZThZd3g4RWtDVWpyakFDckxtZ3EycHdiOGJQZ1p3Y1BVQU9ma3Z2ekVGVmN4bGZSdGVtWEFaMWwrWHlqTGtacE1wamlsUXhHRCtaRENsVFdGaUl2a0duSlhMWjI3YkxhdTcvWWZ0SmMybmtKODhjMWtHRkZUSTFvaEVNL0x2NEwvbnBPOGpoWk9oQXFwZUlTaFd2UERYOVBWRWIzY2RQZFVlcktnWDduQXlzSTBCR0lnanZSQnROaXpPeWlLeVhRMzJkYUl1RXZpUC9NWGdTelVmSnV2NFpKRXNoNUxKQ3J0ZjNwMHpjUVNlVDUrTDRZVGZsVUZMUFQ4Wkh3OE85aW9NYWdrRHBiR1FqMzNrc2tsTXVqTGVGOUt5d0NncDl1cktqZVd0aG9rQnlCZUdQRmNTZm9qK2d5aVpsd3pXSXNGanBSMENKT0xENlR4T3pUcHFEQ2J1SHFHdnNrQVR5c255K3BHOXB1N29Za05vcjQ2dEVScTF0TTZkRUxxTGVYTFV6cm9USFo1YVpFVEdJVUdSdjY0OUc0VXprU3VzNVVBdUdBT2h2VVZXTW04NWlxL3ExMFBYeWRrc1RYYnR2N25aazJDZDRZNmxTVGtMTzl1cmRwS3RCU2VJU01UQkVkQUFZeE9laDZEc1FjWW9qZi9UMm4wSlNhYmthNzhHVFYwQTRPK3NaSExrT2JIT0drTnF6bnJvakY5TGRLQ0tobndPWnZodmZpU2doZWlwNjh2bytQNFVaMU5veHc0ZzFFdXI2aEJNS1U0d1hQKzM0anpBQnNoUjFGZ2kwYm0vbjUvQktDUE5PWDR3VGNiZ3JGTXFMZE01UGNBaTRiRWkzVWJ3OXgvMmpoU0tCZDNMQWppbG02NjBMS3JGVk9Obmp4SXh0Z0tINnhPMUo4VDU3YXRDRUFyYWsrUjA1TmNOTWpQbUhCMnFQRzVNWFdIbkYrVWNHZkl1NG5FeEh3dUFDZ2dSa1lOSDJSY1YxMmQzRHg4M21rM25NQ0MwcTN3N29KTFlvWHdXUHc1dHNLSWpHb2t0ZGhjVGVzczZTSkUvOHNjRURhOHBFQnZ3dVRraFdQMkpucHZWVWdBYWQ0cFB5REFQSUJpNERtVk5ScVNWNDVnSm5OUmVpb215MWk5ejJvUktLYk1Za0NSZ2dCMU9CTFVoaitYdmhXc1dGbXgySmNTY2svSnJZRGhxUkcwcWhpY2pTaUFVZ2JnT1gwQkJ3NFd6UWlyZlV1NnNzRVZaTUlHUkdlWnZDNkpUWjNVMjd6RFd4RXFWQWpBQUJmalYvRUtoZXJ5SEhneUFEbmNrelVCeDhNM0U5eHVpME8vWXNuR2haVHRmV0p5KzRxVW1vS3Rxclh4QlBQcUFzYitPWW5zRnFNcVNYSmVyRHRDNE9SZDR1MkhPeFVIS3hqOVpEeHFtQ0lnd1pGOTRkUHp2THlHZGZjeHFVR1hXMnNHSEorMDRRWWpYQ0luaFBndGVqT1hWeEo1SHUrcGJQTXVqbEN4aWY2c25hQi94ZmFkMGQwZ2w4ZHYzMlRCbi9xRlRuT21HWThkWStFSm1qSUVCcGYxUFZtODhPSzhIVDNmS2tvQVlkTG9udnA2L2JTQ0lMMlNHZWR4WGN2WlU4UHE1eWZSVXRVT1hFVUNsNURNTlVFNjg3Q3FLR09ML2k1Uld6Nm4zZzJKVEo4cHphWTlKWHM2OHFhaDc1Y09sWTZFaUVsQXB3UlIvOW9kTzBMaENnT1VlTis0SGtLb1NpYVRya1R1dzRrR0pONHFuZUVFSnAwSGZNT0o1NzZXQzdrMG9SSGtab1JpTnB4SzBrMU5vK0Z2OXAydFJTRXpONUdHa01Ob2kvb3FDVmgvZ2dRY2pnT0ltS2kweWlqYnBDVEFuaXJVRmRKd093TjJMcDB1KzBhMzR0ZDgzQWlrM0JCY0tMdHQrUU5qR3N5dGFOZlZ5L3Mvdjljc1pYUS9Da1Rab3l6aExMY1ZjbEZNYjJ6dTVMR0RCOW9YQWpZeGxTenRFNUhXYytQbUd5cXJEZUZvbVREN0xEcE15ZnFvampBWVIyVnVEbGtNRVo2Qm82dlhrNFRMeExLcFA5dFJPb1FUa0NXamdxRWJqT2N3ejNVdkR4YkJ4MFJmSjdHUFFPKzFlZ2ZKQWRuaXV5ejJOdlhtbUx4akdhQm9kQXl4WHFRcWpSTmlUKzBFWjhsSnJRckJKOVE4aFlpOGFWSmFtSUU0Mm1Hc1hYRFJjZi9sdFZtaUdvVkRCRHdpTzdHVU9OQ1M2VHVuQjY0Szh3bnhrTHF1RHh3VXdwZkRqWUR4cHM2OFFMRklCeVg0VHpzY2gwMjgxalRqOHpkcElnNy9Xakp1VHdWaUhMTGFJRE51cEVjblhwZXVjKzdmY0tIV1hmOGhYNHNHOGVrM2t0NlpXdGJick1reGxaZDZ6Z0krNWtvVUdFcU0vWVJ4Z3IvT0Nwb0NtN01ZU0ZEYUd0NU1mZ28ySUppSXJMeUh5SW9FK1Fac2xYMithOEdBYTcxWWpGbHdFdERxZVF6SktManF2RW1vQmRjY0loTDV1NkJCRG16RGIvaWtTd2Q1c2hLVzUvQ1IyNGJ5TlR2RGlzb3FaeExkaEtIYXY2S2tiRFh5RmFlL0JTR0RXcG44c09WUEh2MzBsd0FuTm1XVDBnUFppUk1TRUdYM1ZVVVBoZy9vaFE2NjIxSG9zVXMzdmxHTEs3b2w2dUJlS1ZMRmRQUUNuVnp1eHNvOTkzQnlENXRwUWFYV2xZNjR3ZjBhdXZ4dDBGaU51bkVlM1Raa0Y1dVhwektvdGgxQ0V0SVpWUmZkVGZLRDdvb2xtK1JHY2o5dXllTDFpeTkzSTVUQVpJRWhnSXhhYjJMdklKcHlMVlFNd2xzR25aYnNKVXRuZDQyY1JXOWpOekIzQnFEaUhiZDVvUVkvQVMvbTZ5c1FVNVBaVzFreDhsaHcwajhSZE5QVm50eHZ0clQ2MDVqK3BnSXlRVWpjc0U1bGg2anhUZ2xiZUhNRW15bTAvazZjVUpmVnJxSHpJckNHeTBxaUZPcEVIcDRmbjlhTlN2TEFUTmttRllJT0swUGx0M1Z2V2ROOXRnRXJLY1g3TWhCeDBIYWJNeWhFZGxqKzdoSGhhRCsrdHhMc0x5VHlZOWhJVzYwNzZ6ZDRiYVhVSHg0MC9ZQmtIZDhQTndjeTZoVVZpanFSM1RoK3pFaW5UTlBVcTJnSTN4anE1cUZKNHBucFBRYmFxLzltUGVwK3lBWmRlK3VMVDg1SXJoVW51aSs4dCtLd3pzTjcvZlJYck9JOFVZTE1jdTJYUEtBeUhGa0JQWUJBaDJVQUozd0tWUkVsY0RkU0l1YVRJTUx3SXVQcTJCWTkySkhybTJ2Q2c1ekFzMHJWcTFHRnNZS0hLZUM5ZjFTRE81ZXhlL3h3bHNmTnBmR2R2N0FrZXBwZm9lWnRoTkdrcGd1YkxxeWNuVnRhc0pjbVhhaitZUmdXNlR5VjBraG5qOURqc2d0VjFUSm42MEZ5Ri9KaVV1VTQ1R2pIQnVJeFRyZTJzaE9XNmZsZjIrK2hQeTRleDBZWGkrY1FjMEpqTmNxZUpJOFU2LzRQTEllQ21qeVg1WEJoVnRKWmlRSTI3Wi9vKzYzMld5QksxQk9sZ3BGeFh6NFBPZWFmSWtGbFZoOUs5Qk5FMkxLMXZDYjZmNEZIQTNIdGR5OHc9</sapp-apsc>
+          <sapp-settings>
+            <setting>
+              <name>forceUpdates</name>
+              <value>dHJ1ZQ==</value>
+            </setting>
+            <setting>
+              <name>lastEmailedUpdateRelease</name>
+              <value>MzI2</value>
+            </setting>
+            <setting>
+              <name>lastEmailedUpdateVersion</name>
+              <value>NS44LjI=</value>
+            </setting>
+            <setting>
+              <name>updatedAutomatically</name>
+              <value>dHJ1ZQ==</value>
+            </setting>
+          </sapp-settings>
+        </sapp-installed>
+      </applications>
+    </phosting>
+    <extensions>
+      <extension name="git" version="1.3.4" release="280">
+        <config>$AES-128-CBC$Dpwq/m9XtfXR1EX/AY+j5g==$YkjBbc5Q9/AGfNtPVt4drUmZLbR79K8sIwV2kWW+iik=</config>
+      </extension>
+      <extension name="sslit" version="1.9.7" release="1337">
+        <config>$AES-128-CBC$gm1ib5IrdcC9DYnF1oMzng==$3ogfIc4C4u/dXMJe2WqRr5mMqi/W7XXG1zm+Qa+KHPv+vGDU7yYZOZEjDqILlDqZ</config>
+      </extension>
+    </extensions>
+  </domain>
+</migration-dump>
